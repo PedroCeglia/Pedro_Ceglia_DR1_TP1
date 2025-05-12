@@ -52,14 +52,14 @@ public class ScientificCalculatorTest {
     // Exercício 8
     @Test
     void deveCalcularLogaritmoCorretamente() {
-        double resultado = calc.log(Math.E); // ln(e) = 1
+        double resultado = calc.log(Math.E);
         assertEquals(1.0, resultado, 1e-10, "Logaritmo de e deve ser 1.0");
     }
 
-    // Exercício 8: Teste do método sin
+    // Exercício 8
     @Test
     void deveCalcularSenoCorretamente() {
-        double resultado = calc.sin(90.0); // sin(90°) = 1
+        double resultado = calc.sin(90.0); 
         assertEquals(1.0, resultado, 1e-10, "Seno de 90 graus deve ser 1.0");
     }
 }
